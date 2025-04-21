@@ -9,7 +9,7 @@ const LOGIN = (req,res) =>{
 }
 
 const POST = (req,res) =>{
-    res.send("Salom Dunyo")
+    res.send("Salom")
 }
 
 export default {
