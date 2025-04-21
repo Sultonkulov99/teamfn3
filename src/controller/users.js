@@ -26,6 +26,9 @@ const Umidjon = (req,res) =>{
     console.log("Umidjon ozgartirdi! 👌")
 }
 const Faxriddin = (req,res) =>{
+
+    res.send("Faxriddin")
+    return "Faxriddin"
     
 }
 
