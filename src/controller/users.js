@@ -39,7 +39,7 @@ const Ozodbek_N = (req,res) =>{
     
 }
 const Abdulloh = (req,res) =>{
-    
+    res.send("abduloh")
 }
 
 const Abbos = (req,res) =>{
