@@ -46,6 +46,7 @@ const Abbos = (req,res) =>{
     
 }
 const Otabek = (req,res) =>{
+    console.log("😀")
     
 }
 const MuhammadAziz = (req,res) =>{
