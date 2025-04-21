@@ -26,6 +26,9 @@ const Umidjon = (req,res) =>{
     
 }
 const Faxriddin = (req,res) =>{
+
+    res.send("Faxriddin")
+    return "Faxriddin"
     
 }
 
