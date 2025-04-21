@@ -1,5 +1,7 @@
+import fs from "fs"
+import path from "path"
 const GET = (req,res) =>{
-
+    res.status(200).json({message: "get users"})
 }
 const REGISTER = (req,res) =>{
     
