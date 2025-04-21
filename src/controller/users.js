@@ -1,5 +1,6 @@
 import fs from "fs"
 import path from "path"
+import { send } from "process"
 
 const GET = (req, res) => {
     res.status(200).json({ message: "get users" })
@@ -12,7 +13,7 @@ const LOGIN = (req, res) => {
 }
 
 const POST = (req, res) => {
-    
+    res.send("salom")
 }
 
 const get_Users = (req, res) => {
