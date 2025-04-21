@@ -7,6 +7,7 @@ const REGISTER = (req,res) =>{
     console.log("Muhammadrizo ozgartirdi !?")
 }
 const LOGIN = (req,res) =>{
+    let data = fs.readFileSync(path.join(process.cwd(),"src","database","users.json"))
     
 }
 
