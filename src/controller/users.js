@@ -2,6 +2,7 @@ import fs from "fs"
 import path from "path"
 const GET = (req,res) =>{
     res.status(200).json({message: "get users"})
+    console.log("keldi");
 }
 const REGISTER = (req,res) =>{
     
