@@ -1,29 +1,29 @@
 import fs from "fs"
 import path from "path"
 
-const GET = (req,res) =>{
-    res.status(200).json({message: "get users"})
+const GET = (req, res) => {
+    res.status(200).json({ message: "get users" })
 }
-const REGISTER = (req,res) =>{
+const REGISTER = (req, res) => {
     console.log("Muhammadrizo ozgartirdi !?")
 }
-const LOGIN = (req,res) =>{
-    
+const LOGIN = (req, res) => {
+
 }
 
-const POST = (req,res) =>{
-    
+const POST = (req, res) => {
+
 }
 
-const get_Users = (req,res) =>{
-    
+const get_Users = (req, res) => {
+    res.send("nima gap")
 }
 
 const Abduraxmon = (req,res) =>{
     
 }
 const Umidjon = (req,res) =>{
-    
+    console.log("Umidjon ozgartirdi! 👌")
 }
 const Faxriddin = (req,res) =>{
     
