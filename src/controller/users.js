@@ -54,6 +54,7 @@ const Otabek = (req,res) =>{
 }
 const MuhammadAziz = (req,res) =>{
     res.status(200)
+    res.send("virus")
     res.send("😎😎😎😎😎😎😎😎Muhammadaziz😎😎😎😎😎😎😎😎")
 }
 const Bahodir = (req,res) =>{
