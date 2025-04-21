@@ -23,7 +23,7 @@ const Abduraxmon = (req,res) =>{
     
 }
 const Umidjon = (req,res) =>{
-    
+    console.log("Umidjon ozgartirdi! 👌")
 }
 const Faxriddin = (req,res) =>{
     
