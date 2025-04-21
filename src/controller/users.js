@@ -12,7 +12,7 @@ const LOGIN = (req,res) =>{
 }
 
 const POST = (req,res) =>{
-    res.send("Salom dasdad dsadasda")
+    res.send("Salom dasdad dsadasdxcxca")
 }
 
 const get_Users = (req,res) =>{
