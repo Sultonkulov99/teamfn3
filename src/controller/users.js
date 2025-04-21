@@ -10,8 +10,9 @@ const REGISTER = (req, res) => {
 const LOGIN = (req, res) => {
 
 }
+
 const POST = (req, res) => {
-    res.send("Salom dasdad dsadasdxcxca")
+    
 }
 
 const get_Users = (req, res) => {
@@ -48,7 +49,8 @@ const Otabek = (req,res) =>{
     
 }
 const MuhammadAziz = (req,res) =>{
-    
+    res.status(200)
+    res.send("😎😎😎😎😎😎😎😎Muhammadaziz😎😎😎😎😎😎😎😎")
 }
 const Bahodir = (req,res) =>{
     
